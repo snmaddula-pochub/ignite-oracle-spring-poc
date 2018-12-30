@@ -1,0 +1,21 @@
+ignite:
+  datasource:
+    url: jdbc:ignite:thin://localhost:10800
+    username: ignite
+    password: ignite
+    driver-class-name: org.apache.ignite.IgniteJdbcThinDriver
+
+oracle:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: 
+    password: 
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+h2:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+    
